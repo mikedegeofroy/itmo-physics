@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modeling</title>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+
+    #buttons {
+      padding-top: 2vh;
+    }
+
+    body {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      height: 80vh;
+      width: 100vw;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+  <meta charset="utf-8" />
+</head>
+<body>
+  <div id="buttons">
+    <button onclick="play()">Play</button>
+    <input id='digits' value='10' type='text'>
+  </div>
+  <script src="block.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
